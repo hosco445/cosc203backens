@@ -52,7 +52,7 @@ const user = process.env.ATLAS_USER;
 const password = process.env.ATLAS_PASSWORD;
 const db_name = process.env.DATABASE_NAME;
 
-const db_url = `mongodb+srv://${user}:${password}@birds.gvgkbgl.mongodb.net/${db_name}`;
+const db_url = `mongodb+srv://admin:Iosvs3NcV0dKWZpv@birds.gvgkbgl.mongodb.net/Bird`;
 
 
 const options = {
